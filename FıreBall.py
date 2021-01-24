@@ -1,6 +1,4 @@
-#!/usr/bin/python3.7
-# Please note that this project is meant to run in Pygame 2.
-# Setup Python ----------------------------------------------- #
+#Youtube=Yazılımcı Bey
 import pygame, sys, random, math
 import data.entities as e
 import data.lines as line_math
@@ -9,7 +7,7 @@ from data.core_funcs import *
 
 BORDER_WIDTH = 70
 
-# Setup pygame/window ---------------------------------------- #
+
 mainClock = pygame.time.Clock()
 from pygame.locals import *
 pygame.mixer.pre_init(44100, -16, 2, 512)
